@@ -11,7 +11,7 @@ pipeline{
     }
 
     options {
-        timeout(time: 10, unit: 'SECONDS') 
+        // timeout(time: 10, unit: 'SECONDS') 
         disableConcurrentBuilds()
     }
 
@@ -86,8 +86,8 @@ pipeline{
             echo "I will run if FAILURE"
         }
 
-        aborted{
-            echo "Pipeline is Aborrted please Check"
-        }
+        // aborted{
+        //     echo "Pipeline is Aborrted please Check"
+        // }
     }
 }
