@@ -1,0 +1,68 @@
+SHELL=/bin/bash
+RUN_TESTS_DISPLAY_URL=http://100.53.128.107:8080/job/hello%20pipeline/5/display/redirect?page=tests
+COURSE=Jenkins
+HISTSIZE=10000
+JENKINS_SERVER_COOKIE=durable-29f85523770752c237effead816e1ce4cc4ccfeed86ccdb567b9f3ac511d70f5
+GIT_PREVIOUS_SUCCESSFUL_COMMIT=d6123a8ce8918341a8176fc543094a318ef401cb
+HISTTIMEFORMAT=%d/%m/%y %T 
+AWS_DEFAULT_REGION=us-east-1
+RUN_CHANGES_DISPLAY_URL=http://100.53.128.107:8080/job/hello%20pipeline/5/display/redirect?page=changes
+HUDSON_HOME=/var/lib/jenkins
+PWD=/home/ec2-user/cicd/workspace/hello pipeline
+LOGNAME=ec2-user
+XDG_SESSION_TYPE=tty
+BUILD_URL=http://100.53.128.107:8080/job/hello%20pipeline/5/
+ANSIBLE_DEPRECATION_WARNINGS=False
+JOB_URL=http://100.53.128.107:8080/job/hello%20pipeline/
+BUILD_NUMBER=5
+MOTD_SHOWN=pam
+JENKINS_NODE_COOKIE=0d1713da-214e-48f1-81f6-f505b7c654af
+BUILD_DISPLAY_NAME=#5
+HOME=/home/ec2-user
+LANG=C.UTF-8
+ANSIBLE_FORCE_COLOR=1
+JENKINS_URL=http://100.53.128.107:8080/
+JOB_BASE_NAME=hello pipeline
+PROMPT_COMMAND=$(history -w)
+JOB_NAME=hello pipeline
+RUN_DISPLAY_URL=http://100.53.128.107:8080/job/hello%20pipeline/5/display/redirect
+SSH_CONNECTION=172.31.19.78 51888 172.31.27.203 22
+JOB_DISPLAY_URL=http://100.53.128.107:8080/job/hello%20pipeline/display/redirect
+WORKSPACE=/home/ec2-user/cicd/workspace/hello pipeline
+GIT_PREVIOUS_COMMIT=d6123a8ce8918341a8176fc543094a318ef401cb
+HUDSON_URL=http://100.53.128.107:8080/
+XDG_SESSION_CLASS=user
+NODE_NAME=Agent-1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+USER=ec2-user
+HUDSON_SERVER_COOKIE=55c025bd59d0f939
+GIT_URL=https://github.com/kirankumar-kosuri/jenkins-d.git
+SHLVL=2
+BUILD_TAG=jenkins-hello pipeline-5
+EXECUTOR_NUMBER=2
+HUDSON_COOKIE=efcc40ee-5ef2-415a-8a7e-fa4b0f96a92f
+SYSTEMD_PAGER=cat
+XDG_SESSION_ID=8
+JENKINS_HOME=/var/lib/jenkins
+XDG_RUNTIME_DIR=/run/user/1001
+SSH_CLIENT=172.31.19.78 51888 22
+REQUESTS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt
+DEBUGINFOD_IMA_CERT_PATH=/etc/keys/ima:
+GIT_COMMIT=209d8c4e665e3edfa486334ecb4031a1da89a9d3
+which_declare=declare -f
+NODE_LABELS=Agent-1
+STAGE_NAME=Build
+AWS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt
+WORKSPACE_TMP=/home/ec2-user/cicd/workspace/hello pipeline@tmp
+XDG_DATA_DIRS=/home/ec2-user/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+PATH=/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+RUN_ARTIFACTS_DISPLAY_URL=http://100.53.128.107:8080/job/hello%20pipeline/5/display/redirect?page=artifacts
+CI=true
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+GIT_BRANCH=origin/main
+BUILD_ID=5
+OLDPWD=/home/ec2-user
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+_=/usr/bin/env

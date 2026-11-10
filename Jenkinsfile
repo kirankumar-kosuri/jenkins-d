@@ -4,9 +4,15 @@ pipeline{
             label "Agent-1"
         }
     }
+
     environment{
         COURSE = "Jenkins"
     }
+
+    options {
+        timeout(time: 10, unit: 'SECONDS') 
+    }
+
     stages{
         stage('Build'){
             steps{
@@ -51,6 +57,10 @@ pipeline{
 
         failure{
             echo "I will run if FAILURE"
+        }
+
+        aborted{
+            echo "Pipeline is Aborrted please Check"
         }
     }
 }
