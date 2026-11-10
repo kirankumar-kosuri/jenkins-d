@@ -1,28 +1,3 @@
-// pipeline {
-//     agent {
-//         node{
-//             label "agent-1"
-//         }
-//     }
-//     stages {
-//         stage('Build') {
-//             steps {
-//                 echo "Building"
-//             }
-//         }
-//         stage('Test') {
-//             steps {
-//                 echo  "Testing"
-//             }
-//         }
-//         stage('Deploy') {
-//             steps {
-//                 echo "Deploying"
-//             }
-//         }
-//     }
-// }
-
 pipeline{
     agent{
         node{
@@ -32,17 +7,29 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                echo "Building"
+                script{
+                    sh """
+                         echo "Building"
+                    """
+                }
             }
         }
         stage('Test'){
             steps{
-                echo "Testing"
+                script{
+                    sh """
+                         echo "Testing"
+                    """
+                }
             }
         }
         stage('Deploy'){
             steps{
-                echo "Deploying"
+                script{
+                    sh """
+                         echo "Deploying"
+                    """
+                }
             }
         }
     }
@@ -62,4 +49,3 @@ pipeline{
         }
     }
 }
-
