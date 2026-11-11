@@ -19,7 +19,7 @@ pipeline{
                     sh """
                         echo "Building"
                         echo $COURSE
-                        // env
+                        env
                         sleep 10
 
                     """
