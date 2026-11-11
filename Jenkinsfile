@@ -1,8 +1,13 @@
+// pre build 
 pipeline{
     agent{
         node{
             label "Agent-1"
         }
+    }
+// build
+    environment{
+        COURSE = "Jenkins-CICD"
     }
     stages{
         stage('Build'){
@@ -10,6 +15,7 @@ pipeline{
                 script{
                     sh """
                         echo "Building"
+                        echo $COURSE
                     """
                 }
             }
@@ -33,6 +39,7 @@ pipeline{
             }
         }
     }
+// post build
     post{
         always{
             echo 'I will always say Hello again!'
