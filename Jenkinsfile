@@ -5,6 +5,7 @@ pipeline{
             label "Agent-1"
         }
     }
+    
 // build
     environment{
         COURSE = "Jenkins-CICD"
