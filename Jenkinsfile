@@ -57,5 +57,8 @@ pipeline{
         failure{
             echo "I WILL RUN IF FAILURE"
         }
+        aborted{
+            echo "Pipeline is Aborted please Check"
+        }
     }
 }
