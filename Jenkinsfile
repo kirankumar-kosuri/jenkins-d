@@ -31,7 +31,7 @@ pipeline{
                     sh """
                         echo "Building"
                         echo "$COURSE"
-                        sleep 10
+                        #sleep 10
                         env
 
                         echo "Hello ${params.PERSON}"
@@ -83,8 +83,8 @@ pipeline{
         failure{
             echo "I will run if failure"
         }
-        aborted{
-            echo "Pipeline is Aborted please Check It"
-        }
+        // aborted{
+        //     echo "Pipeline is Aborted please Check It"
+        // }
     }
 }
