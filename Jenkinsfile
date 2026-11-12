@@ -25,13 +25,13 @@ pipeline{
     }
     post{
         always{
-            echo "I will say hello again"
+            echo "I will always say Hello again!"
         }
         success{
-
+            echo "I will run if Success"
         }
         failure{
-            
+            echo "I will run if Failure"
         }
     }
 }
