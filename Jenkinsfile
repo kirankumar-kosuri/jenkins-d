@@ -1,4 +1,4 @@
-# pre-build
+#pre-build
 pipeline{
     agent{
         node{
@@ -23,6 +23,7 @@ pipeline{
             }
         }
     }
+#post build
     post{
         always{
             echo "I will always say Hello again!"
