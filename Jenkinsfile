@@ -1,4 +1,4 @@
-// pre-build
+// pre-build stage
 pipeline{
     agent{
         node{
@@ -23,7 +23,7 @@ pipeline{
         password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
     }
 
-// build
+// build stage
     stages{
         stage('Build'){
             steps{
@@ -62,7 +62,7 @@ pipeline{
             }
         }
     }
-// post build
+// post build stage
     post{
         always{
             echo "I will always say Hello again!"
