@@ -1,11 +1,11 @@
-#pre-build
+// pre-build
 pipeline{
     agent{
         node{
             label "Agent-1"
         }
     }
-# build
+// build
     stages{
         stage('Build'){
             steps{
@@ -23,7 +23,7 @@ pipeline{
             }
         }
     }
-#post build
+// post build
     post{
         always{
             echo "I will always say Hello again!"
